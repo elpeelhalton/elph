@@ -150,8 +150,7 @@
                         <br>Website: <a href="https://csviamonde.ca/" target="_blank">https://csviamonde.ca/</a>
                         </p>
                 </div>
-                </div>
-            <div class="row justify-content-center">
+                <div class="w-100"></div>
 				<div class="col point">
 					<a href="https://www.hcdsb.org/Pages/default.aspx" target="_blank">
 					<h5>Halton Catholic District School Board</h5>
@@ -231,18 +230,18 @@
 
     <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
     <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyCbpV1UHLgq_EtZknLdpVo0OyI8zgw7Anc",
-            authDomain: "lepc-backend.firebaseapp.com",
-            databaseURL: "https://lepc-backend.firebaseio.com",
-            projectId: "lepc-backend",
-            storageBucket: "lepc-backend.appspot.com",
-            messagingSenderId: "211024794862"
-        };
-        firebase.initializeApp(config);
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC4fmVXx1Sa2oY_VwBNfW1NFpi20E0yyDM",
+        authDomain: "elph-fb6dd.firebaseapp.com",
+        databaseURL: "https://elph-fb6dd.firebaseio.com",
+        projectId: "elph-fb6dd",
+        storageBucket: "elph-fb6dd.appspot.com",
+        messagingSenderId: "789727767427"
+     };
+     firebase.initializeApp(config);
 
         function format(data) {
             var email, phone;
@@ -267,9 +266,6 @@
             </table>
             `;
         }
-
-
-
 
 
         firebase.database().ref('programs').once('value', (snapshot) => {
