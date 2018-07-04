@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(10, 10, 80, 0.068);
+}
+
+.card-columns {
+    margin: 60px 20px 100px 20px;   
+}
+
+.jumbotron {
+    margin-top: 85px;
+    background-image: url(../res/images/28.JPG); filter: grayscale(60%);
+    background-position: top;
+    background-size: 100%;
+}
+
+.card { 
+    border-color:  rgb(2, 33, 65);
+}
+
+.header {
+    color: white;
+}

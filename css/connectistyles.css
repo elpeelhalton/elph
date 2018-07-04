@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(10, 10, 80, 0.068);
+}
+
+.accordion {
+    margin: 60px 40px 60px 40px;
+}
+
+.jumbotron {
+    margin-top: 85px;
+    background-image: url(../res/images/1.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.header {
+    color: white;
+}
+
+.card-body {
+    margin-left: 1%;
+}

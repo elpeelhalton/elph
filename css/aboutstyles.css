@@ -1,0 +1,60 @@
+#main {
+    padding: 100px 40px 60px 40px;
+    color: black;
+    background-image: url(../res/images/54.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    background-position: top;
+    background-size: 100%; 
+}
+#panel1 {
+    padding: 60px 0 80px 0; 
+    background-color:  rgb(233, 233, 233);
+}
+
+#panel2 {
+    padding: 80px 0 100px 0;
+    background-color:  rgb(161, 161, 161);
+}
+
+.point {
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: .3rem;
+    padding: 15px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+#starterhead {
+    font-size: 3.1em;
+    
+}
+
+.ph {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    color: white;
+}
+
+h5 {
+    margin-top: 3%;
+    color: black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 3%;
+}
+
+    /* https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page */

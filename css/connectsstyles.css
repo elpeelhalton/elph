@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(10, 10, 80, 0.068);
+}
+
+#panel1 {
+    padding: 0px 20px 100px 20px;
+    height: auto ;
+}
+
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.point {
+    background-color: lightgrey;
+    margin: 8px;
+    border-radius: .3rem;
+    padding: 15px;
+    width: 100%;
+}
+
+.jumbotron {
+    margin-top: 85px;
+    background-image: url(../res/images/13.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.connectstudents {
+    text-align: center;
+}
+
+.studentdropdown {
+    margin-top: 2%;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(1, 45, 90);
+}
+
+th {
+    color: white;
+}
+
+label {
+    font-size: 18px;
+}
+
+td.details-control {
+    background: url('../res/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../res/details_close.png') no-repeat center center;
+}
+
+.header {
+    color: white;
+}
+
+#datatablenote {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: rgb(1, 45, 90);
+    font-weight: bold;
+}

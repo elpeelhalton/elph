@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(10, 10, 80, 0.068);
+}
+
+#panel1 {
+    margin-top: 4%;
+}
+
+#panel2 {
+    padding: 40px 0 100px 0;
+    height: auto ;
+}
+
+.point {
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: .3rem;
+    padding: 15px;
+}
+
+.jumbotron {
+    margin-top: 85px;
+    background-image: url(../res/images/1.jpg); filter: grayscale(60%);
+    background-position: center;
+    background-size: 100%;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.header {
+    color: white;
+}
+
+#educatorresourceimg {
+    margin-top: 1.5%;
+}

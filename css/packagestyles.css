@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(10, 10, 80, 0.068);
+}
+
+#panel1 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+img {
+    margin-top: 2%;
+}
+
+.point {
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: .3rem;
+    padding: 15px;
+}
+
+.jumbotron {
+    margin-top: 85px;
+    background-image: url(../res/images/21.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.header {
+    color: white;   
+}
