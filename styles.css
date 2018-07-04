@@ -65,3 +65,19 @@ a.nav-link {
 .footerimg {
     height: 80px;
 }
+
+.searchbox {
+    width: 300px;
+}
+
+.gsc-search-button {
+    height: 32px;
+}
+
+.cse .gsc-control-cse,
+        .gsc-control-cse {
+                padding: 0px !important;
+                background-color:rgb(2, 33, 65) !important;
+                border: none !important;
+        }
+
