@@ -3,8 +3,9 @@ body {
 }
 
 #panel1 {
-    padding: 0px 20px 100px 20px;
-    height: auto ;
+    margin-bottom: 100px;
+    height: auto;
+    text-align: center;
 }
 
 .row {
@@ -22,7 +23,7 @@ body {
 
 .jumbotron {
     margin-top: 85px;
-    background-image: url(../res/images/13.jpg);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/connectstudentscover.jpg?alt=media&token=0851d194-0554-4dbf-8387-08e2f1bd9cc1);
     background-position: center;
     background-size: 100%;
 }
@@ -49,11 +50,11 @@ label {
 }
 
 td.details-control {
-    background: url('../res/details_open.png') no-repeat center center;
+    background: url("../details_open.png") no-repeat center center;
     cursor: pointer;
 }
 tr.shown td.details-control {
-    background: url('../res/details_close.png') no-repeat center center;
+    background: url("../details_close.png") no-repeat center center;
 }
 
 .header {

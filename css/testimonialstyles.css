@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
     margin-top: 85px;
-    background-image: url(../res/images/28.JPG); filter: grayscale(60%);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/testimonialcover.JPG?alt=media&token=655b5787-71bc-4581-b1cd-472067f574fe); filter: grayscale(60%);
     background-position: top;
     background-size: 100%;
 }

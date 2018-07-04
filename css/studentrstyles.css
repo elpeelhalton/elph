@@ -24,7 +24,7 @@ h5 {
 
 .jumbotron {
     margin-top: 85px;
-    background-image: url(../res/images/5.jpg); filter: grayscale(80%);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/studentcover.jpg?alt=media&token=55c3c29d-2376-45f5-894f-75f84e2bb9a9); filter: grayscale(80%);
     background-position: center;
     background-size: 100%;
 }
