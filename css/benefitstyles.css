@@ -16,6 +16,7 @@ body {
 
 .jumbotron {
     margin-top: 85px;
+    /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
     background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/benefitscover.jpg?alt=media&token=372cda02-43eb-4b5d-8ab8-a3c220bea7d8); filter: grayscale(0%);
     background-position: center;
     background-size: 100%;

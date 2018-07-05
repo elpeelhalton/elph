@@ -1,6 +1,7 @@
 #main {
     padding: 100px 40px 60px 40px;
     color: black;
+    /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
     background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/aboutcover.jpg?alt=media&token=edc2d110-2d9f-4f31-b630-b08bdd9067d8);
     background-repeat: no-repeat;
     filter: grayscale(100%);
@@ -57,4 +58,5 @@ p {
     margin-top: 3%;
 }
 
-    /* https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page */
+
+/* https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page */

@@ -20,6 +20,7 @@ body {
 
 .jumbotron {
     margin-top: 85px;
+    /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
     background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/educatorcover.jpg?alt=media&token=c69fc75b-0189-42c4-b588-937383c34617); filter: grayscale(60%);
     background-position: center;
     background-size: 100%;
