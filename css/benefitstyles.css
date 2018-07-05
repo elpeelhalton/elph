@@ -3,7 +3,7 @@ body {
 }
 
 #panel1 {
-    padding: 40px 0 100px 0;
+    padding: 0 0 60px 0;
     height: auto ;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .jumbotron {
     margin-top: 85px;
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/benefitscover.jpg?alt=media&token=372cda02-43eb-4b5d-8ab8-a3c220bea7d8);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/benefitscover.jpg?alt=media&token=372cda02-43eb-4b5d-8ab8-a3c220bea7d8); filter: grayscale(0%);
     background-position: center;
     background-size: 100%;
 }
