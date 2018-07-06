@@ -27,6 +27,7 @@ body {
     color: black;
 }
 
-.spacer {
-    flex: 1;
-  }
+.btn {
+    white-space: normal;
+    word-wrap: break-word;
+}

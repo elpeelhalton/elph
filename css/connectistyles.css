@@ -21,3 +21,8 @@ body {
 .card-body {
     margin-left: 1%;
 }
+
+.btn {
+    white-space: normal;
+    word-wrap: break-word;
+}
