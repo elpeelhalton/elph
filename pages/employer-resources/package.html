@@ -1,13 +1,22 @@
 <!DOCTYPE html>
+
+<!--Important! If you need to make any text changes, edit the text in white.-->
+<!--Href connects to the page location. All pages are in the page folder. "../" leads to previous folder. -->
+<!--White letters are the letters that appear in the site. If you need to change the menu's working, edit the white letters.-->
+
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--This "icon" is the icon image that goes in the tab.-->
+	<link rel="icon" href="../../res/images/elf.png">
+	<!--Title of the Website that appears in the tab-->
 	<title>Package - Experiential Learning</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--Links the css documents to the page. The first document "styles.css" links to the styling sheet for general styling (navbar, footer, and search bar). The second document "benefitstyles.css" links to the styling sheet for the specific page.-->
 	<link rel="stylesheet" href="../../styles.css">
 	<link rel="stylesheet" href="../../css/packagestyles.css">
 </head>
@@ -25,64 +34,81 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
+					<!--Navbar href leads to home-->
 					<a class="nav-link" href="../../index.html">HOME
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to about page-->
 					<a class="nav-link" href="../about.html">ABOUT</a>
 				</li>
+				<!--"active" highlights the active navbar item when on the page-->
 				<li class="nav-item active dropdown">
-					<a class="nav-link dropdown-toggle" href="../employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 					 aria-expanded="false">
 						EMPLOYER
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to employer resources page-->
 						<a class="dropdown-item" href="../employerresources.html">EMPLOYER RESOURCES</a>
+						<!--href leads to benefits page-->
 						<a class="dropdown-item" href="benefits.html">BENEFITS/INCENTIVES</a>
+						<!--href leads to connect students page-->
 						<a class="dropdown-item" href="connectstudent.html">CONNECT TO STUDENTS</a>
+						<!--href leads to connect to institutions page-->
 						<a class="dropdown-item" href="connectinstitutions.html">CONNECT TO INSTITUTIONS</a>
-						<a class="dropdown-item" href="disadvantagedgroup.html">CONNECT TO DISADVANTAGED GROUPS</a>
+						<!--href leads to underrepresented groups page-->
+						<a class="dropdown-item" href="underrepresented.html">CONNECT TO UNDERREPRESENTED <br> GROUPS</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="package.html">EMPLOYER'S GUIDE PACKAGE</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="package.html">WALKTHROUGH PACKAGE</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						OTHER USERS
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to student page-->
 						<a class="dropdown-item" href="../studentresources.html">STUDENT</a>
+						<!--href leads to educator page-->
 						<a class="dropdown-item" href="../educatorresources.html">EDUCATOR</a>
+						<!--href leads to parent page-->
 						<a class="dropdown-item" href="../parentresources.html">PARENT</a>
 					</div>
 				</li>
 				<li class="nav-item">
+					<!--href leads to testimonial page-->
 					<a class="nav-link" href="../testimonials.html">TESTIMONIALS</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to faq page--> 
 					<a class="nav-link" href="../faq.html">FAQ</a>
 				</li>
 			</ul>
 			<div class="searchbox">	
+				<div class="searchbox">	
 				<script>
 					(function() {
-					  var cx = '005208297832722803738:jt9kk1m4gjo';
-					  var gcse = document.createElement('script');
-					  gcse.type = 'text/javascript';
-					  gcse.async = true;
-					  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-					  var s = document.getElementsByTagName('script')[0];
-					  s.parentNode.insertBefore(gcse, s);
+						var cx = '015490130260261639781:88d4unxoc2q';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
 					})();
-				  </script>
-				  <gcse:search enableAutoComplete="true"></gcse:search>
+				</script>
+					<gcse:search enableAutoComplete="true"></gcse:search>
 			</div>
 		</div>
 	</nav>
 
 	<div class="jumbotron">
+		<!--Packages page header-->
 		<h1 class="header">PACKAGES</h1>
 	</div>
 
@@ -91,42 +117,53 @@
 			<div class="col-md-6">
 			<div class="row point">
 				<div class="col-md-12">
+					<!--Package header-->
 					<h5>Walkthrough Package</h5>
+					<!--Package body-->
 					<p>A step-by-step walkthrough on how to create the best experiential learning opportunity.
 					</p>
 				</div>
 				<div class="col-md-4">
-					<a href="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/walkthrough.pdf?alt=media&token=91abb457-7336-4137-96fc-65ec8092be71" target="_blank" class="fas fa-file-pdf fa-3x" style="color: red">
+					<!--href links to pdf file location-->
+					<a href="../../res/doc/walkthrough.pdf" target="_blank" class="fas fa-file-pdf fa-3x" style="color: red">
 					</a>
 				</div>
 			</div>
 			<div class="row point">
 				<div class="col-md-12">
+					<!--Package header-->
 					<h5>An Employer's Guide to Experiential Learning</h5>
+					<!--Package body-->
 					<p>Helps employers to understand what Experiential Learning (EL) is, their role in EL, the benefits and incentives, and things they need to consider.
 					</p>
 				</div>
 				<div class="col-md-4">
-					<a href="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/employers.pdf?alt=media&token=01d56960-f148-4842-839e-ed7b8d63ba51" target="_blank" class="fas fa-file-pdf fa-3x" style="color: red">
+					<!--href links to pdf file location-->
+					<a href="../../res/doc/employers.pdf" target="_blank" class="fas fa-file-pdf fa-3x" style="color: red">
 					</a>
 				</div>
 			</div>
 			</div>
 			<div class="col-md-6">
-				<img class="img-fluid" id="studentresourcesimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/employerpackages.jpg?alt=media&token=cb227570-6b77-4143-801c-98524366c7a2" alt="Random Picture Replace Please">
+				<img class="img-fluid" id="studentresourcesimg" src="../../res/images/2-mincs.jpg" alt="People signing a contract">
 			</div>
 		</div>
 	</div>
 
 	<div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
+			<!--a href leads to peel halton lepc website-->
 			<a href="https://www.peelhaltonlepc.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/lepclogo.png?alt=media&token=9a7af0e0-7641-4379-a8d5-0dc8b7790bda">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../../res/images/lepclogocs.png" alt="Peel-Halton Local Employment Planning Council Logo">
 			</a>
 			&nbsp;
+			<!--a href leads to phwfdg website-->
 			<a href="http://www.peelhaltonworkforce.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/phwdglogo.png?alt=media&token=1021fc33-78b4-409d-90d7-783ccf683d7d">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../../res/images/phwdglogocs.png" alt="Peel Halton Workforce Development Group Logo">
 			</a>
+		</div>
 	</div>
 
 
@@ -140,3 +177,4 @@
 	<script>
 	</script>
 </body>
+</html>

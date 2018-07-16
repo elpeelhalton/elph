@@ -7,11 +7,12 @@ body {
 }
 
 .jumbotron {
-    margin-top: 85px;
+    margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/connectinstitutionscover.jpg?alt=media&token=f08957c3-1334-4b18-9a5e-259e8191c94e);
+    background-image: url("../res/images/1-min.jpg");
     background-position: center;
     background-size: 100%;
+    border-radius: 0px;
 }
 
 .header {
@@ -25,4 +26,5 @@ body {
 .btn {
     white-space: normal;
     word-wrap: break-word;
+    text-align: left;
 }

@@ -15,11 +15,12 @@ body {
 }
 
 .jumbotron {
-    margin-top: 85px;
+    margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/employercover.jpg?alt=media&token=a5767d80-8609-4c76-918b-7142e726ae51);
+    background-image: url("../res/images/12-min.jpg");
     background-position: center;
     background-size: 100%;
+    border-radius: 0px;
 }
 
 .header {

@@ -1,3 +1,9 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*"main" styling for home cover*/
 #main {
     padding: 100px 50px 60px 50px;
     color: white;
@@ -8,12 +14,15 @@
     z-index: 1;
 }
 
+/*styling for video*/
 #main > video {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%) translate(-50%);
+    -moz-transform: translate(-50%) translate(-50%);
     transform: translate(-50%, -50%);
-    z-index: -1000;
+    z-index: -100;
     position: absolute;
     min-width: 100%;
     min-height: 100%;
@@ -21,16 +30,20 @@
     height: auto;
     overflow: hidden;
 }
-
+/*styling for "let's get started"*/
 #panel1 {
     padding: 60px 0 80px 0; 
     background-color:  rgb(233, 233, 233);
+    z-index: 100;
 }
 
+/*styling for "cards"*/
 #panel2 {
-    padding: 80px 0 100px 0;
+    padding: 80px 0 80px 0;
     background-color:  rgba(70, 71, 81, 1);
+    z-index: 100;
 }
+
 
 .point {
     background-color: lightgrey;

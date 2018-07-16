@@ -1,13 +1,22 @@
 <!DOCTYPE html>
+
+<!--Important! If you need to make any text changes, edit the text in white.-->
+<!--Href connects to the page location. All pages are in the page folder. "../" leads to previous folder. -->
+<!--White letters are the letters that appear in the site. If you need to change the menu's working, edit the white letters.-->
+
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--This "icon" is the icon image that goes in the tab.-->
+	<link rel="icon" href="../res/images/elf.png">
+	<!--Title of the Website that appears in the tab-->
 	<title>Testimonials - Experiential Learning</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--Links the css documents to the page. The first document "styles.css" links to the styling sheet for general styling (navbar, footer, and search bar). The second document "testimonialstyles.css" links to the styling sheet for the specific page.-->
 	<link rel="stylesheet" href="../styles.css">
 	<link rel="stylesheet" href="../css/testimonialstyles.css">
 </head>
@@ -25,30 +34,38 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
+					<!--Navbar href leads to home-->
 					<a class="nav-link" href="../index.html">HOME
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to about page-->
 					<a class="nav-link" href="about.html">ABOUT</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 					 aria-expanded="false">
 						EMPLOYER
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to employer resources page-->
 						<a class="dropdown-item" href="employerresources.html">EMPLOYER RESOURCES</a>
+						<!--href leads to benefits page-->
 						<a class="dropdown-item" href="employer-resources/benefits.html">BENEFITS/INCENTIVES</a>
+						<!--href leads to connect students page-->
 						<a class="dropdown-item" href="employer-resources/connectstudent.html">CONNECT TO STUDENTS</a>
+						<!--href leads to connect to institutions page-->
 						<a class="dropdown-item" href="employer-resources/connectinstitutions.html">CONNECT TO INSTITUTIONS</a>
-						<a class="dropdown-item" href="employer-resources/disadvantagedgroup.html">CONNECT TO DISADVANTAGED GROUPS</a>
+						<a class="dropdown-item" href="employer-resources/underrepresented.html">CONNECT TO UNDERREPRESENTED <br> GROUPS</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="employer-resources/package.html">EMPLOYER'S GUIDE PACKAGE</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="employer-resources/package.html">WALKTHROUGH PACKAGE</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						OTHER USERS
 					</a>
@@ -59,16 +76,18 @@
 					</div>
 				</li>
 				<li class="nav-item">
+					<!--"active" highlights the active navbar item when on the page-->
 					<a class="nav-link active" href="testimonials.html">TESTIMONIALS</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to faq page-->
 					<a class="nav-link" href="faq.html">FAQ</a>
 				</li>
 			</ul>
 			<div class="searchbox">	
 				<script>
 					(function() {
-						var cx = '005208297832722803738:jt9kk1m4gjo';
+						var cx = '015490130260261639781:88d4unxoc2q';
 						var gcse = document.createElement('script');
 						gcse.type = 'text/javascript';
 						gcse.async = true;
@@ -76,13 +95,14 @@
 						var s = document.getElementsByTagName('script')[0];
 						s.parentNode.insertBefore(gcse, s);
 					})();
-					</script>
+				</script>
 					<gcse:search enableAutoComplete="true"></gcse:search>
 			</div>
 		</div>
 	</nav>
 
 	<div class="jumbotron">
+		<!--About testimonials page-->
 		<h1 class="header">TESTIMONIALS</h1>
 	</div>
 
@@ -96,7 +116,7 @@
 						</small>
 					</footer>
 					</blockquote>
-				</div>
+			</div>
 			<div class="card p-3">
 			  <blockquote class="blockquote mb-0 card-body">
 				<p>"Experiential learning is vital in today’s rapidly changing economy. Exposure to entrepreneurship offers a fantastic development opportunity."</p>
@@ -107,8 +127,18 @@
 				</footer>
 			  </blockquote>
 			</div>
+			<div class="card p-3">
+			  <blockquote class="blockquote mb-0 card-body">
+				<p>"With regards to my placement, I had a wonderful time and learned a lot. Signing up for the Extern Job Shadowing program was one of the best decisions I have made so far during my undergraduate journey."</p>
+				<footer class="blockquote-footer">
+				  <small class="text-muted">
+					Student at UTM
+				  </small>
+				</footer>
+			  </blockquote>
+			</div>
 				
-			<div class="card text-center ">
+			<div class="card p-3">
 			  <div class="card-body">
 				<p class="card-text">“I never imagined I would have the opportunities I have had since graduating and that I would make partner at a firm I highly respect."</p>
 				<footer class="blockquote-footer">	
@@ -128,8 +158,19 @@
 				</footer>
 			  </blockquote>
 			</div>
-			<div class="card text-center">
-			  <div class="card-body">
+			<div class="card text-black text-center p-3">
+			  <blockquote class="blockquote mb-0">
+				<p>"I got a better understanding of the financial planning activity as well as the way to access the employment opportunities related to finance. I observed the work environment and the dynamics between employees and clients that was invaluable for exploring my career interest. The most beneficial part was that I had the chance to learn what it means to work in Financial Services and what skills are necessary in order to succeed.”</p>
+				<footer class="blockquote-footer">
+				  <small>
+					2nd year student: Specialist in Finance and Major in Economics
+				  </small>
+				</footer>
+			  </blockquote>
+			</div>
+
+			<div class="card text-black text-center p-3">
+			  <div class="blockquote mb-0">
 				<p class="card-text">"Hiring co-op students helps to foster that philosophy by exposing the firm to a variety of young professionals and potential employees."</p>
 				<footer class="blockquote-footer">
 					<medium class="text-muted">
@@ -158,17 +199,32 @@
 					</footer>
 			  </div>
 			</div>
+			<div class="card text-right">
+			  <div class="card-body">
+				<p class="card-text">"The placement clarified some misconceptions of the job description that I had heard. It gave me a sense of direction, a timeline for me to follow should I really want to pursue genetic counselling as a career. I gathered contacts of other genetic counselors should I have questions about admissions into the master's program at different schools. I now know what exactly I would get myself into should I choose to pursue this career. Thank you very much for this opportunity. Ms. Haroun was really friendly and she gave me contacts to places I can volunteer in to gain experience before applying to the master's in genetic counselling program. The experience was very helpful."</p>
+				<footer class="blockquote-footer">
+						<medium class="text-muted">
+						4th year Student: Human Biology Specialist Program - Genes, Genetics and Biotechnology
+						</medium>
+					</footer>
+			  </div>
+			</div>
 	</div>
 
 	<div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
+			<!--a href leads to peel halton lepc website-->
 			<a href="https://www.peelhaltonlepc.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/lepclogo.png?alt=media&token=9a7af0e0-7641-4379-a8d5-0dc8b7790bda">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../res/images/lepclogocs.png" alt="Peel-Halton Local Employment Planning Council Logo">
 			</a>
 			&nbsp;
+			<!--a href leads to phwfdg website-->
 			<a href="http://www.peelhaltonworkforce.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/phwdglogo.png?alt=media&token=1021fc33-78b4-409d-90d7-783ccf683d7d">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../res/images/phwdglogocs.png" alt="Peel Halton Workforce Development Group Logo">
 			</a>
+		</div>
 	</div>
 
 
@@ -183,3 +239,4 @@
 	<script>
 	</script>
 </body>
+</html>

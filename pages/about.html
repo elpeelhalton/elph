@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 
 <!--Important! If you need to make any text changes, edit the text in white.-->
+<!--Href connects to the page location. All pages are in the page folder. "../" leads to previous folder. -->
+<!--White letters are the letters that appear in the site. If you need to change the menu's working, edit the white letters.-->
 
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!--This "icon" is the icon image that goes in the tab.-->
+	<link rel="icon" href="../res/images/elf.png">
+	<!--Title of the Website that appears in the tab-->
 	<title>About - Experiential Learning</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
 	 crossorigin="anonymous">
+	<!--Links the css documents to the page. The first document "styles.css" links to the styling sheet for general styling (navbar, footer, and search bar). The second document "aboutstyles.css" links to the styling sheet for the specific page.-->
 	<link rel="stylesheet" href="../styles.css">
 	<link rel="stylesheet" href="../css/aboutstyles.css">
 </head>
@@ -29,59 +35,75 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
+					<!--Navbar href leads to home-->
 					<a class="nav-link" href="../index.html">HOME
 						<span class="sr-only">(current)</span>
 					</a>
+				<!--"active" highlights the active navbar item when on the page-->
 				<li class="nav-item active">
+					<!--href leads to about page-->
 					<a class="nav-link" href="about.html">ABOUT</a>
 				</li>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						EMPLOYER
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to employer resources page-->
 						<a class="dropdown-item" href="employerresources.html">EMPLOYER RESOURCES</a>
+						<!--href leads to benefits page-->
 						<a class="dropdown-item" href="employer-resources/benefits.html">BENEFITS/INCENTIVES</a>
+						<!--href leads to connect students page-->
 						<a class="dropdown-item" href="employer-resources/connectstudent.html">CONNECT TO STUDENTS</a>
+						<!--href leads to connect to institutions page-->
 						<a class="dropdown-item" href="employer-resources/connectinstitutions.html">CONNECT TO INSTITUTIONS</a>
-						<a class="dropdown-item" href="employer-resources/disadvantagedgroup.html">CONNECT TO DISADVANTAGED GROUPS</a>
+						<!--href leads to underrepresented groups page-->
+						<a class="dropdown-item" href="employer-resources/underrepresented.html">CONNECT TO UNDERREPRESENTED <br> GROUPS</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="employer-resources/package.html">EMPLOYER'S GUIDE PACKAGE</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="employer-resources/package.html">WALKTHROUGH PACKAGE</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						OTHER USERS
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to student page-->
 						<a class="dropdown-item" href="studentresources.html">STUDENT</a>
+						<!--href leads to educator page-->
 						<a class="dropdown-item" href="educatorresources.html">EDUCATOR</a>
+						<!--href leads to parent page-->
 						<a class="dropdown-item" href="parentresources.html">PARENT</a>
 					</div>
 				</li>
 				<li class="nav-item">
+					<!--href leads to testimonial page-->
 					<a class="nav-link" href="testimonials.html">TESTIMONIALS</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to faq page--> 
 					<a class="nav-link" href="faq.html">FAQ</a>
 				</li>
 			</ul>
 			<div class="searchbox">	
+				<div class="searchbox">	
 				<script>
 					(function() {
-					  var cx = '005208297832722803738:jt9kk1m4gjo';
-					  var gcse = document.createElement('script');
-					  gcse.type = 'text/javascript';
-					  gcse.async = true;
-					  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-					  var s = document.getElementsByTagName('script')[0];
-					  s.parentNode.insertBefore(gcse, s);
+						var cx = '015490130260261639781:88d4unxoc2q';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
 					})();
-				  </script>
-				  <gcse:search enableAutoComplete="true"></gcse:search>
+				</script>
+					<gcse:search enableAutoComplete="true"></gcse:search>
 			</div>
 		</div>
 	</nav>
@@ -89,11 +111,38 @@
 	<div class="container-fluid" id="main">
 		<div class="row justify-content-center">
 			<div class="col-md-8">
-				<br></br>
-				<h1>ELPH</h1> 
-				<p> ELPH which stands for Experiential Learning Peel Halton is a website resource that was created to help employers specifically in Peel and Halton region to learn about experiential learning and to provide them with the resources to actively participate in experiential learning. 
+				<br>
+				<!--About experiential learning section-->
+				<h1> What is Experiential Learning?</h1> 
+				<br>
+				<p> Experiential learning opportunities are hands on learning experiences, where students learn through reflection and practical experience in a work-integrated learning environment. It provides an opportunity for organizations to tap into a massive talent pool of students and other underrepresented groups, and prepares them for the future workforce. Experiential learning works to bridge the gap between employers, students, and academic institutions, benefiting everyone involved.
+				<p>
+				<p> If you are an employer, student, parent, or an educator, ELPH will connect you with the right experiential opportunity, and answer your questions on experiential learning.
 				</p>
-				<p> ElPH will help you connect with student bodies, institutions and local service agencies which provide experiential learning opportunities for disadvantaged groups. Moreover, while catering to employers, ELPH will also work to provide resources for other stakeholders such as parents, educators, and students. 
+				<p><b>Types of Experiential Learning Opportunities can include:</b>
+					<ul style="width: 50%; float:left;" id="ul1">
+					<!--left bullet point list-->
+					<li>Co-ops</li>
+					<li>Internships</li>
+					<li>Field Trips</li>
+					<li>Classroom's Visitor's/ Career Talks</li>
+					<li>Take your child to work days</li>
+					<li>In class experiments</li>
+					<li>Workplace tours</li>
+					<li>Extracurricular activities</li>
+					<li>Career fair participation</li>
+					</ul>
+					<ul style="width: 30%; float: left;" id="ul2">
+					<!--right bullet point list-->
+					<li>Volunteer experiences</li>
+					<li>Mentoring opportunities</li>
+					<li>Job shadowing</li>
+					<li>School-work transitions</li>
+					<li>Field placements</li>
+					<li>Study abroad</li>
+					<li>Research experiences</li>
+					<li>Service learning</li>
+					</ul>
 				</p>
 			</div>
 		</div>
@@ -101,7 +150,20 @@
 
 	<div class="container-fluid" id="panel1">
 		<div class="row justify-content-center">
-			<div class="col-md-8" style="color: #343a40;">
+			<div class="col-md-8" style="color: black;">
+				<!--About ELPH section-->
+				<h1 class="text-center" id="starterhead">ELPH</h1>
+				<p> ELPH which stands for Experiential Learning Peel Halton is a website resource that was created to help employers specifically in Peel and Halton region to learn about experiential learning and to provide them with the resources to actively participate in experiential learning. 
+				</p>
+				<p> ElPH will help you connect with student bodies, institutions and local service agencies which provide experiential learning opportunities for disadvantaged groups. Moreover, while catering to employers, ELPH will also work to provide resources for other stakeholders such as parents, educators, and students. 
+			</div>
+		</div>
+	</div>	
+
+	<div class="container-fluid" id="panel2">
+		<div class="row justify-content-center">
+			<div class="col-md-8" style="color: black;">
+				<!--About Our Creator Section-->
 				<h1 class="text-center" id="starterhead">Our Creator</h1>
 				<p> ELPH was created by Peel Halton Local Employment Planning Council (Peel Halton LEPC) in order to better prepare the workforce of tomorrow and to better meet the needs of the labour force. Based on PHLEPC’s research from primary employer survey data and through other means, they discovered that employers struggled to find the resources they needed in order to connect with different labour force groups in order to provide experiential learning opportunities. This is what led to the creation of ELPH! We hope that ELPH proves to be a useful tool, which makes the entire experiential learning process for all stakeholders involved more informative and seamless. We hope that ELPH eventually leads to more employers providing high quality experiential opportunities, which then works to build a stronger community!	
 				</p>
@@ -111,15 +173,19 @@
 
 	<div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
+			<!--a href leads to peel halton lepc website-->
 			<a href="https://www.peelhaltonlepc.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/lepclogo.png?alt=media&token=9a7af0e0-7641-4379-a8d5-0dc8b7790bda">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../res/images/lepclogocs.png" alt="Peel-Halton Local Employment Planning Council Logo">
 			</a>
 			&nbsp;
+			<!--a href leads to phwfdg website-->
 			<a href="http://www.peelhaltonworkforce.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/phwdglogo.png?alt=media&token=1021fc33-78b4-409d-90d7-783ccf683d7d">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../res/images/phwdglogocs.png" alt="Peel Halton Workforce Development Group Logo">
 			</a>
+		</div>
 	</div>
-
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -132,3 +198,4 @@
 	<script>
 	</script>
 </body>
+</html>

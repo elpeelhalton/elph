@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 
 <!--Important! If you need to make any text changes, edit the text in white.-->
+<!--Href connects to the page location. All pages are in the page folder. "../" leads to previous folder. -->
+<!--White letters are the letters that appear in the site. If you need to change the menu's working, edit the white letters.-->
 
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<!--This "icon" is the icon image that goes in the tab.-->	
+	<link rel="icon" href="res/images/elf.png">
 	<!--Title of the Website that appears in the tab-->
 	<title>Experiential Learning</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
 	 crossorigin="anonymous">
-	 <!--Links the css documents to the page-->
+	 <!--Links the css documents to the page. The first document "styles.css" links to the styling sheet for general styling (navbar, footer, and search bar). The second document "homestyles.css" links to the styling sheet for the specific page.-->
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="css/homestyles.css">
 </head>
 
 <body>
-	<!--Navbar 
-		href leads to home-->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
 		<a class="navbar-brand" href="index.html">
 			<span style="font-weight: 300; font-size: 40px;">ELPH</span>
@@ -29,48 +31,61 @@
 		 aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-	<!--White letters are the letters that appear in the site.
-		If you need to change the menu's working, edit the white letters.-->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
+				<!--"active" highlights the active navbar item when on the page-->
 				<li class="nav-item active">
+					<!--Navbar href leads to home-->
 					<a class="nav-link" href="index.html">HOME
 						<span class="sr-only">(current)</span>
 					</a>
 				<li class="nav-item">
+					<!--href leads to about page-->
 					<a class="nav-link" href="pages/about.html">ABOUT</a>
 				</li>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						EMPLOYER
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to employer resources page-->
 						<a class="dropdown-item" href="pages/employerresources.html">EMPLOYER RESOURCES</a>
+						<!--href leads to benefits page-->
 						<a class="dropdown-item" href="pages/employer-resources/benefits.html">BENEFITS/INCENTIVES</a>
+						<!--href leads to connect students page-->
 						<a class="dropdown-item" href="pages/employer-resources/connectstudent.html">CONNECT TO STUDENTS</a>
+						<!--href leads to connect to institutions page-->
 						<a class="dropdown-item" href="pages/employer-resources/connectinstitutions.html">CONNECT TO INSTITUTIONS</a>
-						<a class="dropdown-item" href="pages/employer-resources/disadvantagedgroup.html">CONNECT TO DISADVANTAGED <br>	GROUPS</a>
+						<!--href leads to underrepresented groups page-->
+						<a class="dropdown-item" href="pages/employer-resources/underrepresented.html">CONNECT TO UNDERREPRESENTED <br> GROUPS</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="pages/employer-resources/package.html">EMPLOYER'S GUIDE PACKAGE</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="pages/employer-resources/package.html">WALKTHROUGH PACKAGE</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						OTHER USERS
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to student page-->
 						<a class="dropdown-item" href="pages/studentresources.html">STUDENT</a>
+						<!--href leads to educator page-->
 						<a class="dropdown-item" href="pages/educatorresources.html">EDUCATOR</a>
+						<!--href leads to parent page-->
 						<a class="dropdown-item" href="pages/parentresources.html">PARENT</a>
 					</div>
 				</li>
 				<li class="nav-item">
+					<!--href leads to testimonial page-->
 					<a class="nav-link" href="pages/testimonials.html">TESTIMONIALS</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to faq page-->
 					<a class="nav-link" href="pages/faq.html">FAQ</a>
 				</li>
 			</ul>
@@ -78,7 +93,7 @@
 		<div class="searchbox">	
 			<script>
 				(function() {
-				  var cx = '005208297832722803738:jt9kk1m4gjo';
+				  var cx = '015490130260261639781:88d4unxoc2q';
 				  var gcse = document.createElement('script');
 				  gcse.type = 'text/javascript';
 				  gcse.async = true;
@@ -91,24 +106,25 @@
 		</div>
 		</div>
 	</nav>
-
+	<!--Main header with video and text on top-->
 	<div class="container-fluid" id="main">
 		<video muted autoplay loop>
 			<!--The source below links a video to the home cover. To change the video, copy the download url from Firebase hosting and replace the src in the quotation marks.-->
-			<source src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/learning1.mp4?alt=media&token=de3ef137-00f9-4a9e-8276-b28db1daf57b" type="video/mp4">
+			<source src="res/learning1.mp4" type="video/mp4">
 		</video> 
 		<div class="row justify-content-center">
 			<div class="col-md-8">
-				<br></br>
+				<!--br gives line break (spacing; same as pressing enter in word document)-->
+				<br><br>
 				<h1>Experiential Learning</h1> 
 				<h2 class="ph">Peel Halton</h2>
-				<p> ELPH works to educate employers in Peel and Halton on what experiential learning is and how to provide the best 
-					experiential learning experience, while also providing resources for other stakeholders. 
+				<p> ELPH works to educate employers in Peel and Halton on what experiential learning is and how to provide the best experiential learning experience, while also providing resources for other stakeholders. 
 				</p>
 			</div>
 		</div>
 	</div>
 
+	<!--Panel 1. Let's get started section.-->
 	<div class="container-fluid" id="panel1">
 		<div class="row justify-content-center">
 			<div class="col-md-8" style="color: #343a40;">
@@ -117,24 +133,25 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
+			<!--a href leads to employer resources page-->
 			<a href="pages/employerresources.html">
-				<div class="col-md-4 point">
-					<h3>Employers</h3>
+			<div class="col-md-4 point">
+				<h3>Employers</h3>
 			</a>
-				</div>
-
+			</div>
+			<!--a href leads to student resources page-->
 			<a href="pages/studentresources.html">
 			<div class="col-md-4 point">
 				<h3>Students</h3>
 			</a>
 			</div>
-			
+			<!--a href leads to parent resources page-->
 			<a href="pages/parentresources.html">
 			<div class="col-md-4 point">
 				<h3>Parents</h3>
 			</a>
 			</div>
-
+			<!--a href leads to educator resources page-->
 			<a href="pages/educatorresources.html">
 			<div class="col-md-4 point">
 				<h3>Educators</h3>
@@ -142,54 +159,64 @@
 			</div>
 		</div>
 	</div>
+	<!--Panel 2. Cards with pictures and short information and button section.-->
 	<div class="container-fluid" id="panel2">
 		<div class="row justify-content-center">
 			<div class="col-md-3 point card">
-				<img src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/homeconnectstudents.jpg?alt=media&token=a8fc489d-02eb-415a-bf7a-d09228710832" class="img-fluid" alt="...">
+				<!--Card image. src links card image location.-->
+				<img src="res/images/6-mincs.jpg" class="img-fluid" alt="People in a meeting">
+				<!--Card header-->
 				<h5>Connect to Students</h5>
+				<!--Card information-->
 				<p>Connect to high schools, colleges, and institutions.</p>
 				<div class="card-footer bg-transparent">
+					<!--a href leads to button destination-->
 					<a href="pages/employer-resources/connectstudent.html" class="btn btn-primary">Learn more</a>
 				</div>
 			</div>
 			<div class="col-md-3 point card">
-				<img src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/homeconnectinstitutions.jpg?alt=media&token=ea87de6c-a3da-4627-b6b9-2a06ab3771b0" class="img-fluid" alt="...">
+				<img src="res/images/1-mincs.jpg" class="img-fluid" alt="Steps to an institution">
 				<h5>Connect to Institutions</h5>
 				<p>Provides a list of all institutions (universities, colleges, and service providers).</p>
 				<div class="card-footer bg-transparent">
+					<!--a href leads to connect to institutions page-->
 					<a href="pages/employer-resources/connectinstitutions.html" class="btn btn-primary">Learn more</a>
 				</div>
 			</div>
 			<div class="col-md-3 point card">
-				<img src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/homebenefits.jpg?alt=media&token=5a592db2-f71c-490f-8e2a-f4805a21d0a6" class="img-fluid" alt="...">
+				<img src="res/images/19-mincs.jpg" class="img-fluid" alt="People shaking heads">
 				<h5>Benefits/Incentives</h5>
 				<p>Potential benefits, awards, and incentives of participating in experiential learning for employers.</p>
 				<div class="card-footer bg-transparent">
+					<!--a href leads to benefits page-->
 					<a href="pages/employer-resources/benefits.html" class="btn btn-primary middle">Learn more</a>
 				</div>
 			</div>
 			<div class="col-md-3 point card">
-				<img src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/homeconnectdisadvantaged.jpg?alt=media&token=97be3618-316b-43b2-a1a8-724595f77af6" class="img-fluid" alt="...">
-				<h5>Connect to Disadvantaged Groups</h5>
+				<img src="res/images/11-mincs.jpg" class="img-fluid" alt="Students working on a project">
+				<h5>Connect to Underrepresented Groups</h5>
 				<p>List of service providers for disadvantaged groups: People with disability, homeless people, people with a criminal record, newcomers,
 					immigrants, and refugees, seniors, adults in bridging program, and aboriginals.</p>
 				<div class="card-footer bg-transparent">
-					<a href="pages/employer-resources/disadvantagedgroup.html" class="btn btn-primary">Learn more</a>
+					<!--a href leads to underrepresented groups page-->
+					<a href="pages/employer-resources/underrrepresented.html" class="btn btn-primary">Learn more</a>
 				</div>
 			</div>
 			<div class="col-md-3 point card">
-				<img src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/homeguide.jpg?alt=media&token=66208174-94d5-4705-81f9-58281648b343" class="img-fluid" alt="...">
+				<img src="res/images/2-mincs.jpg" class="img-fluid" alt="People signing a contract">
 				<h5>Employer's Guide Package</h5>
 				<p>Helps employers to understand what Experiential Learning (EL) is, their role in EL, the benefits and incentives, and things they need to consider.</p>
 				<div class="card-footer bg-transparent">
+					<!--a href leads to packages page-->
 					<a href="pages/employer-resources/package.html" class="btn btn-primary">Learn more</a>
 				</div>
 			</div>
 			<div class="col-md-3 point card">
-				<img src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/homewalkthrough.jpg?alt=media&token=d7f9b795-bab2-4773-95a1-225131421ddd" class="img-fluid" alt="...">
+				<img src="res/images/13-mincs.jpg" class="img-fluid" alt="Office materials scattered on the desk">
 				<h5>Walkthrough Package</h5>
 				<p>A step-by-step walkthrough on how to create the best experiential learning opportunity.</p>
-				<div class="card-footer bg-transparent">
+				<div class="card-footer bg-transparent"> 
+					<!--a href leads to packages page-->
 					<a href="pages/employer-resources/package.html" class="btn btn-primary last">Learn more</a>
 				</div>
 			</div>
@@ -198,13 +225,18 @@
 
 	<div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
+			<!--a href leads to peel halton lepc website-->
 			<a href="https://www.peelhaltonlepc.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/lepclogo.png?alt=media&token=9a7af0e0-7641-4379-a8d5-0dc8b7790bda">
+				<!--src leads to image location-->
+				<img class="footerimg" src="res/images/lepclogocs.png" alt="Peel-Halton Local Employment Planning Council Logo">
 			</a>
 			&nbsp;
+			<!--a href leads to phwfdg website-->
 			<a href="http://www.peelhaltonworkforce.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/phwdglogo.png?alt=media&token=1021fc33-78b4-409d-90d7-783ccf683d7d">
+				<!--src leads to image location-->
+				<img class="footerimg" src="res/images/phwdglogocs.png" alt="Peel Halton Workforce Development Group Logo">
 			</a>
+		</div>
 	</div>
 
 
@@ -218,3 +250,4 @@
 	<script>
 	</script>
 </body>
+</html>

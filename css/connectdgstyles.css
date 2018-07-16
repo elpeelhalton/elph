@@ -7,18 +7,28 @@ body {
 }
 
 .jumbotron {
-    margin-top: 85px;
+    margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/connectdisadvantagedcover.jpg?alt=media&token=d42a1467-57d1-4784-93dc-c36d19bf4094);
+    background-image: url(../res/images/19-min.jpg);
     background-position: center;
     background-size: 100%;
+    border-radius: 0px;
 }
 
 .header {
     color: white;
 }
 
+.card-body {
+    margin-left: 1%;
+}
+
 .btn {
     white-space: normal;
     word-wrap: break-word;
+    text-align: left;
+}
+
+h5 {
+    text-align: left;
 }

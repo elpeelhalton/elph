@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 
 <!--Important! If you need to make any text changes, edit the text in white.-->
+<!--Href connects to the page location. All pages are in the page folder. "../" leads to previous folder. -->
+<!--White letters are the letters that appear in the site. If you need to change the menu's working, edit the white letters.-->
 
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--This "icon" is the icon image that goes in the tab.-->
+    <link rel="icon" href="../../res/images/elf.png">
+    <!--Title of the Website that appears in the tab-->
     <title>Connect to Student - Experiential Learning</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-        crossorigin="anonymous">
-
+    crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css">
+    <!--Links the css documents to the page. The first document "styles.css" links to the styling sheet for general styling (navbar, footer, and search bar). The second document "benefitstyles.css" links to the styling sheet for the specific page.-->
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../css/connectsstyles.css">
 </head>
@@ -31,71 +35,90 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
+                    <!--Navbar href leads to home-->
                     <a class="nav-link" href="../../index.html">HOME
                         <span class="sr-only">(current)</span>
                     </a>
+                <!--"active" highlights the active navbar item when on the page-->
                 </li>
                 <li class="nav-item">
+                    <!--href leads to about page-->
                     <a class="nav-link" href="../about.html">ABOUT</a>
                 </li>
+                <!--"active" highlights the active navbar item when on the page-->
                 <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="../employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         EMPLOYER
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!--href leads to employer resources page-->
                         <a class="dropdown-item" href="../employerresources.html">EMPLOYER RESOURCES</a>
+                        <!--href leads to benefits page-->
                         <a class="dropdown-item" href="benefits.html">BENEFITS/INCENTIVES</a>
+                        <!--href leads to connect students page-->
                         <a class="dropdown-item" href="connectstudent.html">CONNECT TO STUDENTS</a>
+                        <!--href leads to connect to institutions page-->
                         <a class="dropdown-item" href="connectinstitutions.html">CONNECT TO INSTITUTIONS</a>
-                        <a class="dropdown-item" href="disadvantagedgroup.html">CONNECT TO DISADVANTAGED GROUPS</a>
+                        <!--href leads to underrepresented groups page-->
+                        <a class="dropdown-item" href="underrepresented.html">CONNECT TO UNDERREPRESENTED <br> GROUPS</a>
+                        <!--href leads to packages page-->
                         <a class="dropdown-item" href="package.html">EMPLOYER'S GUIDE PACKAGE</a>
+                        <!--href leads to packages page-->
                         <a class="dropdown-item" href="package.html">WALKTHROUGH PACKAGE</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         OTHER USERS
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!--href leads to student page-->
                         <a class="dropdown-item" href="../studentresources.html">STUDENT</a>
+                        <!--href leads to educator page-->
                         <a class="dropdown-item" href="../educatorresources.html">EDUCATOR</a>
+                        <!--href leads to parent page-->
                         <a class="dropdown-item" href="../parentresources.html">PARENT</a>
                     </div>
                 </li>
                 <li class="nav-item">
+                    <!--href leads to testimonial page-->
                     <a class="nav-link" href="../testimonials.html">TESTIMONIALS</a>
                 </li>
                 <li class="nav-item">
+                    <!--href leads to faq page--> 
                     <a class="nav-link" href="../faq.html">FAQ</a>
                 </li>
             </ul>
             <div class="searchbox">	
-                <script>
-                    (function() {
-                      var cx = '005208297832722803738:jt9kk1m4gjo';
-                      var gcse = document.createElement('script');
-                      gcse.type = 'text/javascript';
-                      gcse.async = true;
-                      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                      var s = document.getElementsByTagName('script')[0];
-                      s.parentNode.insertBefore(gcse, s);
-                    })();
-                  </script>
-                  <gcse:search enableAutoComplete="true"></gcse:search>
+                <div class="searchbox">	
+				<script>
+					(function() {
+						var cx = '015490130260261639781:88d4unxoc2q';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
+					})();
+				</script>
+					<gcse:search enableAutoComplete="true"></gcse:search>
             </div>
         </div>
     </nav>
 
     <div class="jumbotron">
+        <!--Connect to students page header-->
         <h1 class="header">CONNECT TO STUDENTS</h1>
     </div>
     <div class="container" id="panel1">
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="resourcesinfograph">
-                    <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/student2.jpg?alt=media&token=b08f9b0f-fd53-4ff2-ba2d-0b7119eca419" alt="Card image">
+                    <!--Image. Src leads to image file location-->
+                    <img class="img-fluid" src="../../res/images/12-min.jpg" alt="Students performing calculations">
                 </div>
             </div>
         </div>
@@ -103,13 +126,16 @@
     <div class="container" id="panel2">
         <div class="row justify-content-center">
             <div class="col-md-12" style="color: #343a40;">
+                <!--High school student header-->
                 <h1 class="text-center" id="starterhead">Find the Perfect High School Student</h1>
             </div>
 			<div class="row justify-content-center">
 				<div class="col point">
-					<a href="http://www.peelschools.org/Pages/default.aspx" target="_blank">
+                    <a href="http://www.peelschools.org/Pages/default.aspx" target="_blank">
+                    <!--Card header-->
 					<h5>Peel District School Board</h5>
-					</a>
+                    </a>
+                        <!--Card body-->
 					    <p>5650 Hurontario St
                         <br>Mississauga, ON L5R 1C6
                         <br>Phone: (905) 890-1099
@@ -118,9 +144,11 @@
                         </p>
 				</div>
 				<div class="col point">
-					<a href="https://www.dpcdsb.org/" target="_blank">
+                    <a href="https://www.dpcdsb.org/" target="_blank">
+                    <!--Card header-->
 					<h5>Dufferin-Peel Catholic District School Board</h5>
-					</a>
+                    </a>
+                        <!--Card body-->
 					    <p>40 Matheson Blvd W
                         <br>Mississauga, ON L5R 1C5
                         <br>Phone: (905) 890-1221
@@ -129,9 +157,12 @@
                         </p>
                 </div>
                 <div class="col point">
-					<a href="https://www.hdsb.ca/Pages/Home.aspx" target="_blank">
+                    <!--Card header-->
+                    <a href="https://www.hdsb.ca/Pages/Home.aspx" target="_blank">
+                    <!--Card body-->
 					<h5>Halton District School Board</h5>
-					</a>
+                    </a>
+                        <!--Card body-->
 					    <p>2050 Guelph Line
                         <br>Burlington, ON L7R 3Z2
                         <br>Phone: (905) 335-3663
@@ -140,9 +171,11 @@
                         </p>
                 </div>
                 <div class="col point">
-					<a href="https://csviamonde.ca/" target="_blank">
+                    <a href="https://csviamonde.ca/" target="_blank">
+                    <!--Card header-->
 					<h5>Conseil scolaire Viamonde</h5>
-					</a>    
+                    </a>    
+                        <!--Card body-->
 					    <p>116 Cornelius Parkway
                         <br>Toronto, Ontario M6L 2K5 
                         <br>Phone: 416 614-0844 
@@ -151,9 +184,11 @@
                 </div>
                 <div class="w-100"></div>
 				<div class="col point">
-					<a href="https://www.hcdsb.org/Pages/default.aspx" target="_blank">
+                    <a href="https://www.hcdsb.org/Pages/default.aspx" target="_blank">
+                    <!--Card header-->
 					<h5>Halton Catholic District School Board</h5>
-					</a>
+                    </a>
+                        <!--Card body-->
 					    <p>802 Drury Lane 
                         <br>Burlington, ON L7R 2Y2
                         <br>Phone: (905) 632-6300
@@ -162,9 +197,11 @@
                         </p>
 				</div> 
 				<div class="col point">
-					<a href="https://pdsbnet.ca/" target="_blank">
+                    <a href="https://pdsbnet.ca/" target="_blank">
+                    <!--Card header-->
 					<h5>Provincial and Demonstration Schools</h5>
-					</a>
+                    </a>
+                        <!--Card body-->
 					    <p>255 Ontario St S
                         <br>Milton, ON L9T 2M5
                         <br>Board Type: <br>Specialized schools, programs and residences for students who are deaf, blind, deafblind or have a specific learning disability.
@@ -173,9 +210,11 @@
                         </p>
                 </div> 
                 <div class="col point">
-					<a href="https://www.cscmonavenir.ca/" target="_blank">
+                    <a href="https://www.cscmonavenir.ca/" target="_blank">
+                    <!--Card header-->
 					<h5>Conseil scolaire catholique MonAvenir</h5>
-					</a>    
+                    </a>    
+                        <!--Card body-->
 					    <p>110 Drewry Avenue
                         <br>Toronto, Ontario M2M 1C8 
                         <br>Phone: <br>416-397-6564 or 1-800-274-3764 
@@ -183,9 +222,11 @@
                         </p>
                 </div>
                 <div class="col point">
-					<a href="http://feats.findhelp.ca/eng/search.html" target="_blank">
+                    <a href="http://feats.findhelp.ca/eng/search.html" target="_blank">
+                    <!--Card header-->
 					<h5>Employment Ontario Partner's Gateway 211's Find Employment and Training Services Tool</h5>
-					</a>    
+                    </a>    
+                        <!--Card body-->
 					    <p>Email: <a href="mailto:contactEO@ontario.ca">contactEO@ontario.ca</a>
                         <br>Phone: 416-326-5656
                         <br>Website: <a href="http://feats.findhelp.ca/eng/search.html" target="_blank">http://feats.findhelp.ca/eng/search.html</a>
@@ -197,9 +238,11 @@
     <hr>
     <div class="container" style="margin-bottom: 3%; margin-top: 3%">
         <div class="row justify-content-center">
-            <h1>University & College Co-op/Intership Connect</h1>
+            <!--Datatable header-->
+            <h1>University & College Co-op/ Intership Connect</h1>
         </div>
         <div class="row justify-content-center">
+            <!--Datatable instructions-->
             <p id="datatablenote">The datatable connects you to students through program type, institution, and campus location. Use the datatable's search bar to refine your search based on your needs. In order to get the best results, please ensure your spelling is correct and you are not using abbreviations.
             Once you have found your desired program, you can expand the field to find their contact information which you can use to contact and continue your recruiting process.</p>
         </div>
@@ -208,6 +251,7 @@
                 <thead>
                     <tr>
                         <th></th>
+                        <!--Datatable headers-->
                         <th>Program</th>
                         <th>Institution</th>
                         <th>Location</th>
@@ -219,13 +263,18 @@
 
     <div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
-			<a href="https://www.peelhaltonlepc.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/lepclogo.png?alt=media&token=9a7af0e0-7641-4379-a8d5-0dc8b7790bda">
+            <!--a href leads to peel halton lepc website-->
+            <a href="https://www.peelhaltonlepc.com/" target="_blank">
+                <!--src leads to image location-->
+				<img class="footerimg" src="../../res/images/lepclogocs.png" alt="Peel-Halton Local Employment Planning Council Logo">
 			</a>
-			&nbsp;
-			<a href="http://www.peelhaltonworkforce.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/phwdglogo.png?alt=media&token=1021fc33-78b4-409d-90d7-783ccf683d7d">
-			</a>
+            &nbsp;
+            <!--a href leads to phwfdg website-->
+            <a href="http://www.peelhaltonworkforce.com/" target="_blank">
+                <!--src leads to image location-->
+				<img class="footerimg" src="../../res/images/phwdglogocs.png" alt="Peel Halton Workforce Development Group Logo">
+            </a>
+        </div>
 	</div>
 
 
@@ -240,17 +289,16 @@
 
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
     <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyC4fmVXx1Sa2oY_VwBNfW1NFpi20E0yyDM",
-        authDomain: "elph-fb6dd.firebaseapp.com",
-        databaseURL: "https://elph-fb6dd.firebaseio.com",
-        projectId: "elph-fb6dd",
-        storageBucket: "elph-fb6dd.appspot.com",
-        messagingSenderId: "789727767427"
-     };
-     firebase.initializeApp(config);
-
+        // Initialize Firebase
+        var config = {
+        apiKey: "AIzaSyB7PqST-e9sJwGoFWNy-4M7L79t1XeW99Y",
+        authDomain: "elph-f2a78.firebaseapp.com",
+        databaseURL: "https://elph-f2a78.firebaseio.com",
+        projectId: "elph-f2a78",
+        storageBucket: "elph-f2a78.appspot.com",
+        messagingSenderId: "56345853098"
+    };
+    firebase.initializeApp(config);
         function format(data) {
             var email, phone;
             if (data.email) email = `<tr><td>Email:</td><td>${data.email}</tr>`;
@@ -329,3 +377,4 @@
     </script>
 
 </body>
+</html>

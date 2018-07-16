@@ -19,11 +19,12 @@ img {
 }
 
 .jumbotron {
-    margin-top: 85px;
+    margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/packagescover.jpg?alt=media&token=ad4953db-20de-473f-90e6-aca68de96009);
+    background-image: url(../res/images/13-min.jpg);
     background-position: center;
     background-size: 100%;
+    border-radius: 0px;
 }
 
 .header {

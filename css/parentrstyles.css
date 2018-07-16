@@ -19,11 +19,12 @@ body {
 }
 
 .jumbotron {
-    margin-top: 85px;
+    margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/parentcover.jpg?alt=media&token=fbcd65c6-0e9f-4e17-b76e-4d91bbfd08c2); filter: grayscale(80%);
+    background-image: url("../res/images/15-mincs.jpg"); filter: grayscale(80%);
     background-position: center;
     background-size: 100%;
+    border-radius: 0px;
 }
 
 .header {

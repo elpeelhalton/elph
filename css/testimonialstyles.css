@@ -3,15 +3,16 @@ body {
 }
 
 .card-columns {
-    margin: 60px 20px 100px 20px;   
+    margin: 60px 20px 60px 20px;   
 }
 
 .jumbotron {
-    margin-top: 85px;
+    margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/testimonialcover.JPG?alt=media&token=655b5787-71bc-4581-b1cd-472067f574fe); filter: grayscale(60%);
+    background-image: url("../res/images/16-min.JPG"); filter: grayscale(60%);
     background-position: top;
     background-size: 100%;
+    border-radius: 0px;
 }
 
 .card { 

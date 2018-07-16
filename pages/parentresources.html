@@ -1,13 +1,22 @@
 <!DOCTYPE html>
+
+<!--Important! If you need to make any text changes, edit the text in white.-->
+<!--Href connects to the page location. All pages are in the page folder. "../" leads to previous folder. -->
+<!--White letters are the letters that appear in the site. If you need to change the menu's working, edit the white letters.-->
+
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--This "icon" is the icon image that goes in the tab.-->
+	<link rel="icon" href="../res/images/elf.png">
+	<!--Title of the Website that appears in the tab-->
 	<title>Parent Resources - Experiential Learning</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--Links the css documents to the page. The first document "styles.css" links to the styling sheet for general styling (navbar, footer, and search bar). The second document "parentrstyles.css" links to the styling sheet for the specific page.-->
 	<link rel="stylesheet" href="../styles.css">
 	<link rel="stylesheet" href="../css/parentrstyles.css">
 </head>
@@ -25,64 +34,81 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
+					<!--Navbar href leads to home-->
 					<a class="nav-link" href="../index.html">HOME
 						<span class="sr-only">(current)</span>
 					</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to about page-->
 					<a class="nav-link" href="about.html">ABOUT</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
 					 aria-expanded="false">
 						EMPLOYER
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to employer resources page-->
 						<a class="dropdown-item" href="employerresources.html">EMPLOYER RESOURCES</a>
+						<!--href leads to benefits page-->
 						<a class="dropdown-item" href="employer-resources/benefits.html">BENEFITS/INCENTIVES</a>
+						<!--href leads to connect students page-->
 						<a class="dropdown-item" href="employer-resources/connectstudent.html">CONNECT TO STUDENTS</a>
+						<!--href leads to connect to institutions page-->
 						<a class="dropdown-item" href="employer-resources/connectinstitutions.html">CONNECT TO INSTITUTIONS</a>
-						<a class="dropdown-item" href="employer-resources/disadvantagedgroup.html">CONNECT TO DISADVANTAGED GROUPS</a>
+						<!--href leads to underrepresented groups page-->
+						<a class="dropdown-item" href="employer-resources/underrepresented.html">CONNECT TO UNDERREPRESENTED <br> GROUPS</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="employer-resources/package.html">EMPLOYER'S GUIDE PACKAGE</a>
+						<!--href leads to packages page-->
 						<a class="dropdown-item" href="employer-resources/package.html">WALKTHROUGH PACKAGE</a>
 					</div>
 				</li>
+				<!--"active" highlights the active navbar item when on the page-->
 				<li class="nav-item active dropdown">
-					<a class="nav-link dropdown-toggle" href="pages/employerresources.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+					<a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
 					 aria-haspopup="true" aria-expanded="false">
 						OTHER USERS
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<!--href leads to student page-->
 						<a class="dropdown-item" href="studentresources.html">STUDENT</a>
+						<!--href leads to educator page-->
 						<a class="dropdown-item" href="educatorresources.html">EDUCATOR</a>
+						<!--href leads to parent page-->
 						<a class="dropdown-item" href="parentresources.html">PARENT</a>
 					</div>
 				</li>
 				<li class="nav-item">
+					<!--href leads to testimonial page-->
 					<a class="nav-link" href="testimonials.html">TESTIMONIALS</a>
 				</li>
 				<li class="nav-item">
+					<!--href leads to faq page--> 
 					<a class="nav-link" href="faq.html">FAQ</a>
 				</li>
 			</ul>
 			<div class="searchbox">	
+				<div class="searchbox">	
 				<script>
 					(function() {
-					  var cx = '005208297832722803738:jt9kk1m4gjo';
-					  var gcse = document.createElement('script');
-					  gcse.type = 'text/javascript';
-					  gcse.async = true;
-					  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-					  var s = document.getElementsByTagName('script')[0];
-					  s.parentNode.insertBefore(gcse, s);
+						var cx = '015490130260261639781:88d4unxoc2q';
+						var gcse = document.createElement('script');
+						gcse.type = 'text/javascript';
+						gcse.async = true;
+						gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(gcse, s);
 					})();
-				  </script>
-				  <gcse:search enableAutoComplete="true"></gcse:search>
+				</script>
+					<gcse:search enableAutoComplete="true"></gcse:search>
 			</div>
 		</div>
 	</nav>
 
 	<div class="jumbotron">
+		<!--Parent resources header-->
 		<h1 class="header">PARENT RESOURCES</h1>
 	</div>
 
@@ -90,12 +116,14 @@
 		<div class="row justify-content-center">
 			<div class="col-md-6">
 				<div class="resourcesinfograph">
-					<img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/parent1.jpg?alt=media&token=458d2aa5-9088-4e8a-b1b3-1f2fe2267b58" alt="Card image">
+					<!--About parent resources image-->
+					<img class="img-fluid" src="../res/images/14-mincs.jpg" alt="Happy family of six">
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="resourcesinfograph">
 					<h5>
+						<!--About parent resources header and info-->
 						<h2>About Parent Resources</h2>
 						As a parent, your goal is to provide the best opportunities for your child for them to grow and find the best employment opportunities. Experiential learning achieves this goal, through providing your child with hands on learning opportunities that help them gain the right set of skills, knowledge, and experiences to prepare for the future workforce, and engage your child in their education. This guide aims to navigate you into helping your child make the best decisions for their education and career, and answering all your questions on experiential learning including topics such as the types of opportunities, benefits for your child, early experiential learning, and a parent’s role.
 					</h5>
@@ -112,31 +140,39 @@
 			<div class="col-md-6">
 				<div class="row point">
 					<div class="col-md-12">
+						<!--Resources header and info-->
 						<h5>A Parent's Guide to Experiential Learning</h5>
 						<p>The Parents’ Package helps to educate parents on what experiential learning is, its importance, the role parents’ play. This package will also help show parents how they can work to support their child’s educational and career development from kindergarten all the way to post-secondary.
 						</p>
 					</div>
 					<div class="col-md-4">
-						<a href="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/parents.pdf?alt=media&token=993466d0-1315-4f01-888f-6ce38957fe3f" target="_blank" class="fas fa-file-pdf fa-3x" style="color: red">
+						<!--href links pdf file location-->
+						<a href="../res/doc/parents.pdf" target="_blank" class="fas fa-file-pdf fa-3x" style="color: red">
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6">
-					<img class="img-fluid" id="parentresourcesimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/parent2.jpg?alt=media&token=132cdf98-6769-4aef-bcad-9a4ae2c5cac9" alt="Random Picture Replace Please">
+					<!--src leads to img file location. resource image-->
+					<img class="img-fluid" id="parentresourcesimg" src="../res/images/25-mincs.jpg" alt="Family of six taking a selfie">
 			</div>
 		</div>
 	</div>
 
 	<div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
+			<!--a href leads to peel halton lepc website-->
 			<a href="https://www.peelhaltonlepc.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/lepclogo.png?alt=media&token=9a7af0e0-7641-4379-a8d5-0dc8b7790bda">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../res/images/lepclogocs.png" alt="Peel-Halton Local Employment Planning Council Logo">
 			</a>
 			&nbsp;
+			<!--a href leads to phwfdg website-->
 			<a href="http://www.peelhaltonworkforce.com/" target="_blank">
-				<img class="footerimg" src="https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/phwdglogo.png?alt=media&token=1021fc33-78b4-409d-90d7-783ccf683d7d">
+				<!--src leads to image location-->
+				<img class="footerimg" src="../res/images/phwdglogocs.png" alt="Peel Halton Workforce Development Group Logo">
 			</a>
+		</div>
 	</div>
 
 
@@ -151,3 +187,4 @@
 	<script>
 	</script>
 </body>
+</html>

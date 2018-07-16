@@ -1,21 +1,28 @@
 #main {
-    padding: 100px 40px 60px 40px;
+    padding: 100px 40px 40px 40px;
     color: black;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/elph-fb6dd.appspot.com/o/aboutcover.jpg?alt=media&token=edc2d110-2d9f-4f31-b630-b08bdd9067d8);
+    background-image: url("../res/images/22-min.jpg");
     background-repeat: no-repeat;
     filter: grayscale(100%);
     background-position: top;
-    background-size: 100%; 
+    background-size: 100%;
+    opacity: 0.9;   
 }
 #panel1 {
-    padding: 60px 0 80px 0; 
-    background-color:  rgb(233, 233, 233);
+    padding: 60px 40px 80px 40px; 
+    background-color:  rgba(196, 200, 253, 0.527);
 }
 
 #panel2 {
-    padding: 80px 0 100px 0;
-    background-color:  rgb(161, 161, 161);
+    background-image: url("../res/images/26-min.jpg");
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    background-position: top;
+    background-size: 100%;  
+    opacity: 0.9;
+    -webkit-box-reflect: right;
+    padding: 60px 40px 60px 40px;
 }
 
 .point {
@@ -27,8 +34,9 @@
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 3.6em;
     text-align: center;
+    margin-top: -10px;
 }
 
 #starterhead {
@@ -42,6 +50,11 @@ h1 {
     margin-top: -2%;
     margin-bottom: 5%;
 }
+
+#ul1 {
+    margin-left: -18px;
+}
+
 
 h3 {
     color: white;
@@ -58,5 +71,8 @@ p {
     margin-top: 3%;
 }
 
+li {
+    font-size: 18px;
+}
 
 /* https://stackoverflow.com/questions/42294/how-do-you-get-the-footer-to-stay-at-the-bottom-of-a-web-page */
