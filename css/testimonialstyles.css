@@ -9,7 +9,7 @@ body {
 .jumbotron {
     margin-top: 75px;
     /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
-    background-image: url("../res/images/27.JPG"); filter: grayscale(60%);
+    background-image: url("../res/images/27.jpg"); filter: grayscale(60%);
     background-position: center;
     background-size: 100%;
     border-radius: 0px;
