@@ -25,6 +25,11 @@
     padding: 60px 40px 60px 40px;
 }
 
+#panel3 {
+    padding: 60px 40px 80px 40px; 
+    background-color:  rgba(196, 200, 253, 0.527);
+}
+
 .point {
     background-color: lightgrey;
     margin: 10px;
