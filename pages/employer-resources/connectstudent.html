@@ -288,16 +288,16 @@
 
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
     <script>
-        // Initialize Firebase
-        var config = {
-        apiKey: "AIzaSyB7PqST-e9sJwGoFWNy-4M7L79t1XeW99Y",
-        authDomain: "elph-f2a78.firebaseapp.com",
-        databaseURL: "https://elph-f2a78.firebaseio.com",
-        projectId: "elph-f2a78",
-        storageBucket: "elph-f2a78.appspot.com",
-        messagingSenderId: "56345853098"
-    };
-    firebase.initializeApp(config);
+     // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyCdbe6j6w5cnlyfViuBtl0F2mGTbV7NO34",
+    authDomain: "elph-b4ce8.firebaseapp.com",
+    databaseURL: "https://elph-b4ce8.firebaseio.com",
+    projectId: "elph-b4ce8",
+    storageBucket: "elph-b4ce8.appspot.com",
+    messagingSenderId: "741175702927"
+  };
+  firebase.initializeApp(config);
         function format(data) {
             var email, phone;
             if (data.email) email = `<tr><td>Email:</td><td><a href="${data.email}">${data.email}</a></tr>`;
@@ -338,7 +338,7 @@
                         "defaultContent": ''
                     },
                     { data: 'name' },
-                    { data: 'institution.name' },
+                    { data: 'institution' },
                     { data: 'location' }
                 ],
                 "order": [[1, 'asc']]
