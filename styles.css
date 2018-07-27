@@ -68,7 +68,13 @@ a.nav-link {
 }
 
 .footerimg {
-    height: 80px;
+    height: 100px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+#eologo {
+    padding-right: 55px;
 }
 
 .searchbox {

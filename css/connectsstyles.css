@@ -76,8 +76,14 @@ tr.shown td.details-control {
     color: white;
 }
 
-#datatablenote {
+#datatablecomment {
     margin-top: 2%;
+    margin-bottom: 1%;
+    color: red;
+    font-weight: bold;
+}
+
+#datatablenote {
     margin-bottom: 2%;
     color: rgb(1, 45, 90);
     font-weight: bold;
