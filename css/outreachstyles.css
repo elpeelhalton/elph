@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(10, 10, 80, 0.068);
+}
+
+.jumbotron {
+    margin-top: 75px;
+    /*To change about cover, copy the download url from Firebase hosting and replace the url in the parentheses. */
+    background-image: url("../res/images/30.jpg"); filter: grayscale(80%);
+    background-position: center;
+    background-size: 100%;
+    border-radius: 0px;
+}
+
+.header {
+    color: black;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+.container {
+    margin-top: 3%;
+}
+
+#footer {
+    margin-top: 3%;
+}
+
+.post {
+    margin-top: 5%;
+}
