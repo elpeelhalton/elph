@@ -239,32 +239,37 @@
 		</div>
     </div>	
     <hr>
+    <div class="container" style="margin-top: 3%">
+        <div class="row justify-content-center">
+            <p>If you prefer to use the classic version of University & College Co-op/ Intership Connect, please <a
+                    class="btn-link" href="/pages/employer-resources/connectstudent-classic.html">click here</a></p>
+        </div>
+    </div>
     <div class="container" style="margin-bottom: 3%; margin-top: 3%">
         <div class="row justify-content-center">
             <!--Datatable header-->
             <h1>University & College Co-op/ Intership Connect</h1>
         </div>
+        
+    </div>
+    <div class="container-fluid">
         <div class="row justify-content-center">
-            <!--Datatable instructions-->
-            <p id="datatablecomment">*The datatable is not compatible with Internet Explorer. Please use a different browser.*</p>
-            <p id="datatablenote">The datatable connects you to students through program type, institution, and campus location. Use the datatable's search bar to refine your search based on your needs. In order to get the best results, please ensure your spelling is correct and you are not using abbreviations.
-            Once you have found your desired program, you can expand the field to find their contact information which you can use to contact and continue your recruiting process.</p>
-        </div>
-        <div class="row justify-content-center">
-            <table id="programs-list" class="display table-bordered">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <!--Datatable headers-->
-                        <th>Program</th>
-                        <th>Institution</th>
-                        <th>Location</th>
-                    </tr>
-                </thead>
-            </table>
+            <div class="col-md-7" id="main">
+                <div id="mf_placeholder" data-formurl="//elph.stablewp.com/form.php?id=21526" data-formheight="1000"
+                    data-paddingbottom="10"></div>
+                <script>
+                    (function (f, o, r, m) {
+                        r = f.createElement("script");
+                        r.async = 1;
+                        r.src = o + "js/mf.js";
+                        m = f.getElementById("mf_placeholder");
+                        m.parentNode.insertBefore(r, m);
+                    })(document, "//elph.stablewp.com/");
+                </script>
+
+            </div>
         </div>
     </div>
-
     <div class="container-fluid" id="footer">
 		<div class="row justify-content-center">
             <!--a href leads to employment ontario website-->
@@ -299,97 +304,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-
-    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-        apiKey: "AIzaSyB7PqST-e9sJwGoFWNy-4M7L79t1XeW99Y",
-        authDomain: "elph-f2a78.firebaseapp.com",
-        databaseURL: "https://elph-f2a78.firebaseio.com",
-        projectId: "elph-f2a78",
-        storageBucket: "elph-f2a78.appspot.com",
-        messagingSenderId: "56345853098"
-    };
-    firebase.initializeApp(config);
-        function format(data) {
-            var email, phone;
-            if (data.email) email = `<tr><td>Email:</td><td><a href="${data.email}">${data.email}</a></tr>`;
-            if (data.phone) {
-                phone = "<td>Program Phone Number:</td>"
-                phone += `<td>${data.phone[0]}</td>`
-            }
-
-            return `
-            <table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">
-                <tr>
-                    <td>Program Website:</td>
-                    <td><a href="${data.programWebsite}">${data.programWebsite}</a></td>
-                </tr>
-                <tr>
-                    <td>Institution Website:</td>
-                    <td><a href="${data.institutionWebsite}">${data.institutionWebsite}</a></td>
-                </tr>
-                ${(email) ? email : ""}
-                ${(phone) ? phone : ""}
-            </table>
-            `;
-        }
-
-
-        firebase.database().ref('programs').once('value', (snapshot) => {
-            var data = [];
-            snapshot.forEach(ss => {
-                data.push(ss.val());
-            });
-            var table = $('#programs-list').DataTable({
-                data: data,
-                columns: [
-                    {
-                        "className": 'details-control',
-                        "orderable": false,
-                        "data": null,
-                        "defaultContent": ''
-                    },
-                    { data: 'name' },
-                    { data: 'institution.name' },
-                    { data: 'location' }
-                ],
-                "order": [[1, 'asc']]
-            });
-
-            $('#programs-list tbody').on('click', 'td.details-control', function () {
-                var tr = $(this).closest('tr');
-                var row = table.row(tr);
-
-                if (row.child.isShown()) {
-                    // This row is already open - close it
-                    row.child.hide();
-                    tr.removeClass('shown');
-                }
-                else {
-                    // Open this row
-                    row.child(format(row.data())).show();
-                    tr.addClass('shown');
-                }
-            })
-        });
-
-        /*let list = document.querySelector('#programs');
-        programs.on('child_added', (child) => {
-            let tr = document.createElement('tr');
-            tr.innerHTML = `
-            <td>${child.val().name}</td>
-            <td>${child.val().institution.name}</td>
-            <td>${child.val().location}</td>
-            <td><a class="btn btn-primary" href="${child.val().programWebsite}">Program Website</a>
-            <a class="btn btn-primary" href="${child.val().institutionWebsite}">Institution Website</a></td>
-            `
-            list.appendChild(tr);
-        })*/
-    </script>
+    
 
 </body>
 </html>
